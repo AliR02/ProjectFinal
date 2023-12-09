@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class ToMenu : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int currentSceneIndex;
+    public int currentSceneIndex;
 
     public void LoadMainMenu()
     {
-        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        
+        //currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
         SceneManager.LoadScene(0);
     }

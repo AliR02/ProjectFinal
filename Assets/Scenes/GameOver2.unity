@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 78409550}
   - component: {fileID: 78409549}
   - component: {fileID: 78409548}
-  - component: {fileID: 78409547}
+  - component: {fileID: 78409551}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -232,19 +232,6 @@ RectTransform:
   m_AnchoredPosition: {x: -129, y: -47.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &78409547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78409545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aadd84ee4c3227498cd6e38994b1646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: Scenes/TheMaze
 --- !u!114 &78409548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,7 +276,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 78409547}
+      - m_Target: {fileID: 78409551}
         m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
         m_MethodName: goToNextScene
         m_Mode: 1
@@ -339,6 +326,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78409545}
   m_CullTransparentMesh: 1
+--- !u!114 &78409551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78409545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aadd84ee4c3227498cd6e38994b1646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Scenes/TheMaze
 --- !u!1 &119582287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1775,7 +1775,7 @@ GameObject:
   - component: {fileID: 974415114}
   - component: {fileID: 974415113}
   m_Layer: 0
-  m_Name: XR Origin
+  m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2658,7 +2658,7 @@ GameObject:
   - component: {fileID: 1808272563}
   - component: {fileID: 1808272562}
   - component: {fileID: 1808272561}
-  - component: {fileID: 1808272560}
+  - component: {fileID: 1808272564}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2687,19 +2687,6 @@ RectTransform:
   m_AnchoredPosition: {x: 92, y: -47.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1808272560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808272558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aadd84ee4c3227498cd6e38994b1646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: Scenes/StartScene
 --- !u!114 &1808272561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2744,7 +2731,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1808272560}
+      - m_Target: {fileID: 1808272564}
         m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
         m_MethodName: goToNextScene
         m_Mode: 1
@@ -2794,6 +2781,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808272558}
   m_CullTransparentMesh: 1
+--- !u!114 &1808272564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808272558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aadd84ee4c3227498cd6e38994b1646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Scenes/StartRoom
 --- !u!1 &1988013612
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 42f611932ea8d384da790034847f215c
   - enabled: 1
-    path: Assets/Scenes/ScapeRoom.unity
-    guid: afdcb113ffd5a4353ad88f0dd03743af
+    path: Assets/Scenes/EscapeRoom.unity
+    guid: 6fee42e9b183e11488f78b5fa57750df
   - enabled: 1
     path: Assets/Scenes/TheMaze.unity
     guid: 430befccb482c564fb367693c37b4ebc

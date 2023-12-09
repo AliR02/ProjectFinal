@@ -13278,7 +13278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874737034}
   m_LocalRotation: {x: -0, y: 0.70304894, z: -0, w: 0.7111415}
-  m_LocalPosition: {x: 1.13, y: 0.41999996, z: -17.35}
+  m_LocalPosition: {x: -18.55, y: 0.41999996, z: 4.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25142,7 +25142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c5c5c1e906eb145ac8b5bcc9cb7b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTime: 1200
+  gameTime: 17
   timeTextBox: {fileID: 617930493}
   onTimerExpired:
     m_PersistentCalls:

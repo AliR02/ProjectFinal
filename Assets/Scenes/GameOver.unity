@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aadd84ee4c3227498cd6e38994b1646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Scenes/ScapeRoom
+  SceneName: Scenes/EscapeRoom
 --- !u!1 &522072106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 1102191851}
   - component: {fileID: 1102191850}
   m_Layer: 0
-  m_Name: XR Origin
+  m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
